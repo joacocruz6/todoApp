@@ -1,5 +1,6 @@
 # virtual environment
 venv/
+TodoApp/postgres_auth.py
 # Created by https://www.gitignore.io/api/python,django,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=python,django,visualstudiocode
 
