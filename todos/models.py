@@ -12,4 +12,13 @@ class ProyectoTodo(models.Model):
     nombre = models.CharField(max_length=255,primary_key=True)
 
 
+class Categoria(models.Model):
+    """
+    Categoria que tienen las tareas
+    
+    Attributes:
+        nombre {CharField} -- Nombre de la categoria.
+    """
+    nombre = models.CharField(max_length=255, primary_key=True)
+
 
